@@ -3,8 +3,8 @@ import socket
 import threading
 import struct
 
-target_host = "127.0.0.1"  # salla
-target_port = 9999          # geç
+target_host = "127.0.0.1"  # local
+target_port = 9999         
 
 def send_udp():
     while True:
@@ -61,5 +61,4 @@ def run_requests(num_threads):
         dns_thread.start()
 
 if __name__ == "__main__":
-    # elleme olm 1 yapınca evin interneti çöküyör ha 4 olmadımı kökle .d
     run_requests(4)
