@@ -1,9 +1,8 @@
-#senseless yapar ezzz
 import socket
 import threading
-import struct #Valla bu hariciydi glb al canooo xdxdxd pip install supyr-struct
+import struct 
 
-target_host = "45.158.14.252" #rastgele ip adresi yaz yine seni vuruyo xd 
+target_host = "localhost" #local
 target_port = 80
  
 def send_udp():
